@@ -1,0 +1,215 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+body {
+  background-color: #3f4054;
+  color: white;
+  position: relative;
+}
+
+.text {
+  margin: 0;
+  padding: 40px;
+}
+
+#projects-target, #mission-target, #skills-target, #inspiration-target, #contact-target {
+  position: relative;
+  top: -100px;
+}
+
+.container {
+  width: 100vw;
+}
+
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #b6e5f2;
+}
+
+.navbar-nav {
+  padding-right: 40px;
+}
+
+nav i {
+  padding-left: 40px;
+}
+
+nav button {
+  margin-right: 40px;
+}
+
+ /* hero */
+#hero-section {
+  position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .7)), 
+    url("https://w.wallhaven.cc/full/md/wallhaven-mdyqm9.jpg");
+  width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  padding-top: 150px;
+	padding-bottom: 150px;
+  background-position: center bottom; 
+}
+
+#avatar {
+  border-radius: 50%;
+  padding: 0;
+  height: 48vh;
+  border: 15px solid rgba(0,0,0,.2);
+  vertical-align: middle;
+  aspect-ratio: 1/1;
+}
+
+.avatarBorder {
+  text-align: center;
+}
+
+.title {
+  color: #bab8b8;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.subtitle {
+  color: #bab8b8;
+  font-family: 'Overlock', cursive;
+}
+
+.card {
+  width: 70%;  
+}
+
+.section-title {
+  font-family: 'Amaranth', sans-serif;
+  text-shadow: 2px 2px 4px #1d1d36;
+}
+
+#mission-section .section-title,
+#skills-section .section-title,
+#projects-section .section-title {
+  margin-bottom: 40px;
+}
+
+#mission-section, #skills-section,
+#inspiration-section, #contact-section,
+#projects-section {
+  padding: 60px 0;
+}
+
+ /* projects */
+#projects-section {
+  margin: 0;
+  background-color: #3f4054;
+  color: #e6e3e3;
+}
+
+#projects-section img {
+  height: 22vh;
+  transition: transform 450ms;
+}
+
+#projects-section img:hover { /* SIZZLE!! */
+  transition: transform 125ms;
+  transform: translateY(-20px);
+}
+
+#projects-section i {
+  padding-left: 40px;
+}
+
+ /* mission */
+#mission-section {
+  margin: 0;
+  background-color: #35264d;
+  color: #e6e3e3;
+}
+
+#mission-section img {
+  border-radius: 6%;
+  height: 40vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.text {
+  vertical-align: middle;
+}
+
+ /* skills */
+#skills-section {
+  margin: 0;
+  background-color: #464d5d;
+  color: #e6e3e3;
+}
+
+#skills-section img {
+  height: 22vh;
+  transition: transform 450ms;
+}
+
+#skills-section img:hover { /* SIZZLE!! */
+  transition: transform 125ms;
+  transform: translateY(-20px);
+}
+
+#skills-section i {
+  padding-left: 40px;
+}
+
+ /* inspiration */
+#inspiration-section {
+  color: #e6e3e3;
+  background-color: #3f4054;
+}
+
+#inspiration-section h5 {
+  font-family: 'Acme', sans-serif;
+}
+
+#inspiration-section h5 {
+  font-family: 'Overlock', cursive;
+}
+
+.carousel {
+  padding: 40px;
+}
+
+.carousel-caption {
+	background-color: rgba(0,0,0,.5);
+}
+
+.carousel-item img {
+  border-radius: 3%;
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  overflow: hidden;
+}
+
+ /* contact */
+#contact-section {
+  background-color: #3a364c;
+  color: #e6e3e3;
+}
+
+#contact-section .contact-i { /* SIZZLE */
+  transition-duration: .5s;
+}
+
+#contact-section .contact-i:hover {
+  color: #666988;
+  transition-duration: .5s;
+}
+
+#contact-section a {
+  color: #bccdda;
+}
+
+ /* footer */
+#footer-section {
+  padding-top: 16px;
+  background-color: #16162e;
+  padding-bottom: 2px;
+}
